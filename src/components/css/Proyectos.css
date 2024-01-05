@@ -84,6 +84,9 @@
         width: 600px;
         height: 350px;
     }
+    .container-Proyectos .item2{
+        margin-top: 50px;
+    }
     .container-Proyectos .item2 h2{
         font-size: 35px;
     }
