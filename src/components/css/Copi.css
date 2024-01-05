@@ -1,0 +1,12 @@
+.Container-Copi {
+    display: flex;
+    background-color: rgb(22, 22, 21);
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.Container-Copi p{
+    color: white;
+    font-size: 13px;
+}
+

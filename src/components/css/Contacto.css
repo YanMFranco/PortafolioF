@@ -1,0 +1,102 @@
+.container-Contacto{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100vh;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.container-Contacto h1{
+    font-family: 'Anton', sans-serif;
+    margin-top: 80px;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    border-radius: 50px;
+    min-width: 220px;
+    text-align: center;
+    box-shadow:0 0 20px 0 rgba(255,255,255,.55);
+}
+
+.container-Contacto .item2 ul{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-Contacto img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.container-Contacto li{
+    list-style: none;
+    text-align: center;
+}
+
+.container-Contacto .logoContacto {
+    vertical-align: middle;
+    /* Ajusta el espacio entre la imagen y el texto si es necesario */
+    width: 50px;
+    /* Ajusta el ancho deseado */
+    height: auto;
+    /* Ajusta la altura deseada */
+}
+
+.container-Contacto p{
+    margin: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-Contacto textarea{
+    width: 600px;
+    height: 150px;
+}
+
+.container-Contacto form{
+    
+    margin: 20px 0;
+}
+
+.container-Contacto a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-Contacto .contactame{
+    width: 250px;
+    height: 300px;
+    margin-right: 60px;
+}
+
+.container-Contacto .container3{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+@media (max-width: 599px) {
+    .container-Contacto .container3{
+        display: none;
+    }
+    .container-Contacto h1{
+        font-size: 70px;
+        width: 400px;
+    }
+    .container-Contacto p{
+        font-size: 35px;
+    }
+    .container-Contacto a{
+        font-size: 35px;
+    }
+}
