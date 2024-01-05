@@ -18,19 +18,19 @@ const Proyectos = () => {
             <div className="item2">
             <div>
                     <h2>Clima App</h2>
-                    <Link to={"https://clima-app-production.up.railway.app/"}><img src={climapp} alt="Clima app" className="img-Proyectos" /></Link>
+                    <Link to={"https://main--cool-cassata-bab2ea.netlify.app/"}><img src={climapp} alt="Clima app" className="img-Proyectos" /></Link>
                 </div>
                 <div>
                     <h2>Todo list</h2>
-                    <Link to={"https://todo-list-react-production.up.railway.app/"}><img src={todolist} alt="Todo list" className="img-Proyectos" /></Link>
+                    <Link to={"https://main--remarkable-jelly-9deb14.netlify.app/"}><img src={todolist} alt="Todo list" className="img-Proyectos" /></Link>
                 </div>
                 <div>
                     <h2>Juego memoram</h2>
-                    <Link to={"https://juego-memoram-react-production.up.railway.app/"}><img src={memoram} alt="Juego memoram" className="img-Proyectos" /></Link>
+                    <Link to={"https://main--playful-gumption-d0ef2d.netlify.app/"}><img src={memoram} alt="Juego memoram" className="img-Proyectos" /></Link>
                 </div>
                 <div>
                     <h2>Juego en raya</h2>
-                    <Link to={"https://juego-en-raya-production.up.railway.app/"}><img src={raya} alt="Juego en raya" className="img-Proyectos" /></Link>
+                    <Link to={"https://main--animated-rabanadas-222a68.netlify.app/"}><img src={raya} alt="Juego en raya" className="img-Proyectos" /></Link>
                 </div>
             </div>
         </div>
