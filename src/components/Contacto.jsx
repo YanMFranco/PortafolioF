@@ -9,39 +9,32 @@ import contact from "./img/contac.png";
 const Contacto = () => {
     return (
         <div id="contacto" className="container-Contacto">
-            <div className="container2">
-                <div className="item1">
-                    <h1>Contactame...</h1>
-                </div>
-                <div className="item2">
-                    <ul>
-                        <li>
-                            <img src={github} alt="logo Github" className="logoContacto" /><a href="https://github.com/YanMFranco" className="github">GitHub</a>
-                        </li>
-                        <li>
-                            <img src={facebook} alt="logo facebook" className="logoContacto" /><a href="https://www.facebook.com/ymorenohe/" className="facebook">Facebook</a>
-                        </li>
-                        <li>
-                            <img src={linkedin} alt="logo linkedid" className="logoContacto" /><a href="https://www.linkedin.com/in/yan-franco-moreno-henao-83b957247/" className="linkedin">LinkedIn</a>
-                        </li>
-                        <li>
-                            <img src={gmail} alt="logo gmail" className="logoContacto" /><a href="https://mail.google.com/">Morenofranco77@gmail.com</a>
-                        </li>
-                        <li>
-                            <img src={telefono} alt="logo telefono" className="logoContacto" /><a href="https://wa.me/+573218968485">(+57) 3218968485</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="item3">
-                    <form>
-                        <p>Dejame tu mensaje y/o aporte:</p>
-                        <textarea id="miTexto" name="miTexto" rows="6" cols="50" placeholder="Escribe aquí..." />
-                        <input type="submit" value="Enviar" />
-                    </form>
-                </div>
+            <h1>Contactame...</h1>
+            <div className="item2">
+                <ul>
+                    <li>
+                        <img src={github} alt="logo Github" className="logoContacto" /><a href="https://github.com/YanMFranco" className="github">GitHub</a>
+                    </li>
+                    <li>
+                        <img src={facebook} alt="logo facebook" className="logoContacto" /><a href="https://www.facebook.com/ymorenohe/" className="facebook">Facebook</a>
+                    </li>
+                    <li>
+                        <img src={linkedin} alt="logo linkedid" className="logoContacto" /><a href="https://www.linkedin.com/in/yan-franco-moreno-henao-83b957247/" className="linkedin">LinkedIn</a>
+                    </li>
+                    <li>
+                        <img src={gmail} alt="logo gmail" className="logoContacto" /><a href="https://mail.google.com/">Morenofranco77@gmail.com</a>
+                    </li>
+                    <li>
+                        <img src={telefono} alt="logo telefono" className="logoContacto" /><a href="https://wa.me/+573218968485">(+57) 3218968485</a>
+                    </li>
+                </ul>
             </div>
-            <div className="container3">
-                <img src={contact} alt="logo contactame" className="contactame" />
+            <div className="item3">
+                <form>
+                    <p>Dejame tu mensaje y/o aporte:</p>
+                    <textarea id="miTexto" name="miTexto" rows="6" cols="50" placeholder="Escribe aquí..." />
+                    <input type="submit" value="Enviar" />
+                </form>
             </div>
         </div>
     )
