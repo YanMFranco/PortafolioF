@@ -32,7 +32,7 @@ const Contacto = () => {
             <div className="item3">
                 <form>
                     <p>Dejame tu mensaje y/o aporte:</p>
-                    <textarea id="miTexto" name="miTexto" rows="6" cols="50" placeholder="Escribe aquí..." />
+                    <textarea id="miTexto" name="miTexto" rows="6" cols="35" placeholder="Escribe aquí..." />
                     <input type="submit" value="Enviar" />
                 </form>
             </div>
