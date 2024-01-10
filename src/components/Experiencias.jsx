@@ -14,7 +14,7 @@ const Experiencias = () => {
             <div className="item2">
                 <h3>APLISALUD S.A</h3>
                 <p> Como Asistente de sistemas en APLISALUD, Colombia, tuve la oportunidad de trabajar en el area de sistema, donde mi funcion principal era dar el soporte tecnico y mantenimiento a los equipos de la empresa,
-                    aúnque esta experiencia no tuvo nada que ver con el desarrollo web, fue aqui donde inicio mi amor por la tecnologia y gracias al ambiente laboral encoentre un gusto particular por la programacion, de como funcionaba nuestros sistemas, de como se desarrolla una pagina web.
+                    aúnque esta experiencia no tuvo nada que ver con el desarrollo web, fue aqui donde inicio mi amor por la tecnologia y gracias al ambiente laboral encontre un gusto particular por la programacion, de como funcionaba nuestros sistemas, de como se desarrolla una pagina web.
                 </p>
             </div>
             <div className="item3">
