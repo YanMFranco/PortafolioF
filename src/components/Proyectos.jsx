@@ -4,6 +4,7 @@ import climapp from './img/clima.jpg';
 import todolist from './img/todolist.jpg';
 import memoram from './img/memoram.png';
 import raya from './img/raya.png';
+import mundo from './img/mundo.png';
 
 const Proyectos = () => {
     return (
@@ -31,6 +32,10 @@ const Proyectos = () => {
                 <div>
                     <h2>Juego en raya</h2>
                     <Link to={"https://main--animated-rabanadas-222a68.netlify.app/"}><img src={raya} alt="Juego en raya" className="img-Proyectos" /></Link>
+                </div>
+                <div>
+                    <h2>App countries</h2>
+                    <Link to={"https://app-countries-theta.vercel.app/"}><img src={mundo} alt="app countries" className="img-Proyectos" /></Link>
                 </div>
             </div>
         </div>
